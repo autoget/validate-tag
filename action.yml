@@ -1,4 +1,4 @@
-name: "Validate tag action"
+name: "validate-tag-action"
 description: "Validate release/pre-release tags"
 inputs:
   PRERELEASE:
