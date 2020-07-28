@@ -1,9 +1,5 @@
 name: "validate-tag-action"
 description: "Validate release/pre-release tags"
-inputs:
-  PRERELEASE:
-    description: "Tag is prerelease"
-    required: true
 runs:
   using: "node12"
   main: "index.js"

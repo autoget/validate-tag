@@ -1,9 +1,7 @@
 const core = require('@actions/core');
-const github = require('@actions/github');
 
 try {
-  console.log("Start tag validation")
-  // const prereleaseInput = core.getInput("PRERELEASE");
+  core.debug("Start tag validation")
   const ctx = github.context
 
   const branch_name = ctx.payload.release.target_commitish;
